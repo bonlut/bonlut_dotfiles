@@ -1,0 +1,7 @@
+@import ziro.css;
+
+:root {
+    --br-1: 10px;
+    --br-2: 8px;
+    --scrollbar: unset;
+}
