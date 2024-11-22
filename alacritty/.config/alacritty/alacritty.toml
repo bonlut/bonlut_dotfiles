@@ -1,3 +1,19 @@
+
+[window]
+
+opacity = 0.8
+blur = true
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Light" # "Dark"
+
+[font]
+
+size = 12.0
+
+[general]
 # $HOME/.config/alacritty/alacritty.toml
 # by Rito Ghosh 2023-10-06
 
@@ -14,26 +30,12 @@
 # for variables with multiple values, use "dotted keys". Like setting `padding.x = 5` under [window].
 # This is simple. If not clear, do several trials and errors.
 
-# Below is my initial set-up. The TOML homepage (https://toml.io/en/v1.0.0) was very helpful in figuring this out. 
+# Below is my initial set-up. The TOML homepage (https://toml.io/en/v1.0.0) was very helpful in figuring this out.
 # I put the file alacritty.toml in $HOME/.config/alacritty. However it can be kept anywhere among the places mentioned in
 # https://github.com/alacritty/alacritty/tree/master#configuration
 
 import = ["/home/kbertrand/.cache/wal/colors-alacritty.toml"]
 
-[window]
-
-opacity = 0.6
-blur = true
-padding.x = 10
-padding.y = 10
-
-decorations = "Full"
-decorations_theme_variant = "Light" # "Dark"
-
-[font]
-
-size = 12.0
-
 # Tip: for inspiration, look for values in the source code files of your favorite VS Code themes, and use the color picker in
-# Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a 
+# Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a
 # small box when a HEX is detected by the editor.
