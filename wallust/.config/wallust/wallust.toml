@@ -1,0 +1,9 @@
+[templates]
+
+Hyprland = { template = 'hypr-colors.conf', target = '~/.config/hypr/colors.conf' }
+
+# alacritty = { template = 'colors-alacritty.toml', target = '~/.config/alacritty/alacritty-colors.toml' }
+
+vencord = { template = 'discord-wallust.css', target = '~/.config/vesktop/themes/wallust.css' }
+
+pywal = { template = 'colors.json', target = '~/.cache/wal/colors.json' }
