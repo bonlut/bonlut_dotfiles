@@ -1,9 +1,21 @@
+backend = "wal"
+
+palette = "dark16"
+
 [templates]
 
-Hyprland = { template = 'hypr-colors.conf', target = '~/.config/hypr/colors.conf' }
+Hyprland = { template = 'hypr-colors.conf', target = '~/.config/hypr/hypr-colors.conf' }
 
 # alacritty = { template = 'colors-alacritty.toml', target = '~/.config/alacritty/alacritty-colors.toml' }
 
-vencord = { template = 'discord-wallust.css', target = '~/.config/vesktop/themes/wallust.css' }
+vencord = { template = 'discord-wallust-tui.css', target = '~/.config/vesktop/themes/wallust.css' }
 
-pywal = { template = 'colors.json', target = '~/.cache/wal/colors.json' }
+# pywal = { template = 'colors.json', target = '~/.cache/wal/colors.json' }
+
+# Waybar
+waybar = { template = 'colors-waybar.css', target = '~/.config/waybar/sick/colors-waybar.css' }
+
+# Firefox
+
+#
+pywal = { src = "colors", dst = '~/.cache/wal/colors' }

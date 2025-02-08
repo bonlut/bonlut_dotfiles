@@ -1,0 +1,21 @@
+/**
+ * @name Acrylic Popups
+ * @author skyli
+ * @description Transparent popups and menus everywhere with customizable blur, opacity and radius.
+ * @version 1.0
+ * @donate https://www.buymeacoffee.com/skyli
+ * @source https://github.com/s-k-y-l-i/discord-themes
+ */
+
+@import url("acrylic/transparent-popups.css");
+
+/* Config */
+:root {
+    --blur-popup: 40px; /*Popup blur size*/
+    --opacity-popup: 0.5; /*Popup background opacity*/
+    --radius-popup: 14px; /*Popup border radius*/
+    --radius-context: 8px; /*Context menu popups radius*/
+    --opacity-popup-inner: 0.25; /*For example: the inner background of profiles*/
+    /*--pop-up-color: black; /*uncomment for custom Popup color*/
+    /*--context-menu-border: 1px solid red; /*uncomment for custom border*/
+}

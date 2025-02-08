@@ -4,11 +4,14 @@
     "useQuickCss": true,
     "themeLinks": [],
     "enabledThemes": [
-        "discord-tui.css"
+        "youhou2.css",
+        "youhou1.css",
+        "Acrylic-Harmony.theme.css",
+        "Acrylic-popups-addon.theme.css"
     ],
     "enableReactDevtools": false,
     "frameless": false,
-    "transparent": false,
+    "transparent": true,
     "winCtrlQ": false,
     "disableMinSize": false,
     "winNativeTitleBar": false,
@@ -200,9 +203,6 @@
             "enabled": false
         },
         "GreetStickerPicker": {
-            "enabled": false
-        },
-        "HideAttachments": {
             "enabled": false
         },
         "iLoveSpam": {
@@ -560,6 +560,18 @@
         },
         "FixImagesQuality": {
             "enabled": false
+        },
+        "FullUserInChatbox": {
+            "enabled": false
+        },
+        "IrcColors": {
+            "enabled": false
+        },
+        "BadgeAPI": {
+            "enabled": true
+        },
+        "HideMedia": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -572,6 +584,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1730826049265
+        "settingsSyncVersion": 1738766245932
     }
 }

@@ -1,58 +1,28 @@
 @import url("https://refact0r.github.io/system24/src/main.css"); /* main theme css. DO NOT REMOVE */
 @import url("https://refact0r.github.io/system24/src/unrounding.css"); /* gets rid of all rounded corners. remove if you want rounded corners. */
 
-
-
-.theme-dark {
-  /* background-color: $color1; */
-  --colortransparency: #0003;
-  /* Cards */
-  --card: #212332;
-  /* Other stuff */
-  --textcolor: #fff;
-  --epicshadow1: #fff3;
-  --modal-background: #212332;
-  --font-display: var(--font-primary) !important;
-  --background-color: mix(#B6383C, #230F0F, 50%) !important;
-  --background-primary: mix(#201B1A, #230F0F, 50%) !important;
-  --background-secondary: $bg !important;
-  --background-secondary-alt: $bgDarker !important;
-  --background-tertiary: $bgDarker !important;
-  --background-accent: $colorAccent !important;
-  --background-floating: $bgDarker !important;
-  --text-link: $colorHighlight !important;
-  --focus-primary: $colorUrgent !important;
-  --channeltextarea-background: $bg !important;
-  --activity-card-background: $bg !important;
-  --depreciated-store-bg: $bg !important;
-  --deprecated-quickswitcher-input-background: $bgDarker !important;
-  --deprecated-text-input-border-hover: $bgDarker !important;
-  --deprecated-text-input-border-disabled: $bgDarker !important;
-}
-
-
 :root {
     /* background colors */
-    --bg-0: #201B1A; /* main background color. */
-    --bg-1: #1d2021; /* background color for secondary elements like code blocks, embeds, etc. */
-    --bg-2: #3c3836; /* color of neutral buttons. */
-    --bg-3: #504945; /* color of neutral buttons when hovered. */
+    --bg-0: /* main background color. */
+    --bg-1: /* background color for secondary elements like code blocks, embeds, etc. */
+    --bg-2: /* color of neutral buttons. */
+    --bg-3: /* color of neutral buttons when hovered. */
 
 
     /* text colors */
     --txt-dark: var(--bg-0); /* color of dark text on colored backgrounds. */
-    --txt-link: #171E9B; /* color of links. */
+    --txt-link: var(--aqua); /* color of links. */
     --txt-0: #000000; /* color of bright/white text. */
-    --txt-1: #BBBBBB; /* main text color. */
-    --txt-2: #AC6A6C; /* color of secondary text like channel list. */
-    --txt-3: #867E7E; /* color of muted text. */
+    --txt-1: {color1}; /* main text color. */
+    --txt-2: {color3}; /* color of secondary text like channel list. */
+    --txt-3: {color2}; /* color of muted text. */
     /* mention/ping and message colors */
-    --red: #655757;
-    --green: #867E7E;
-    --yellow: #AC6A6C;
-    --blue: #D24C4C;
-    --purple: #D1747B;
-    --aqua: #655757;
+    --red: {color1};
+    --green: {color2};
+    --yellow: {color3};
+    --blue: {color4};
+    --purple: {color5};
+    --aqua: {color1};
 
     --font: "Rxen Sans"; /* UI font name. it must be installed on your system. */
     letter-spacing: -0.05ch; /* decreases letter spacing for better readability. */

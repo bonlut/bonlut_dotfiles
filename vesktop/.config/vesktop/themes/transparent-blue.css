@@ -1,0 +1,58 @@
+//META{"name":"wal-discord","description":"Generated based on pywal colors","author":"wal-discord","version":"1.0"}*//
+/*
+ * @version 0.0.2
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.theme-dark .rootWithShadow_d20cd6,
+.theme-light .rootWithShadow_d20cd6 {
+  background-color: #679099 !important;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.theme-dark {
+  /* background-color: $color1; */
+  --colortransparency: #0003;
+  /* Cards */
+  --card: #212332;
+  /* Other stuff */
+  --textcolor: #fff;
+  --epicshadow1: #fff3;
+  --modal-background: var(--background-primary);
+  --font-display: var(--font-primary) !important;
+  --background-color: mix($color11, $color1, 50%) !important;
+  --background-primary: mix($bg, $color1, 50%) !important;
+  --background-secondary: $bg !important;
+  --background-secondary-alt: $bgDarker !important;
+  --background-tertiary: $bgDarker !important;
+  --background-accent: $colorAccent !important;
+  --background-floating: $bgDarker !important;
+  --text-link: $colorHighlight !important;
+  --focus-primary: $colorUrgent !important;
+  --channeltextarea-background: $bg !important;
+  --activity-card-background: $bg !important;
+  --depreciated-store-bg: $bg !important;
+  --deprecated-quickswitcher-input-background: $bgDarker !important;
+  --deprecated-text-input-border-hover: $bgDarker !important;
+  --deprecated-text-input-border-disabled: $bgDarker !important;
+}

@@ -11,26 +11,26 @@
 	/* rgba(var(--wal-color-5-purple), 0.75); for opaticy */
 
 	/* Background is defined later, with various luminosities. */
-	--wal-foreground: 196,195,195;
-	--wal-cursor: 196,195,195;
+	--wal-foreground: 193,193,192;
+	--wal-cursor: 193,193,192;
 
-	--wal-color-0-black: 19,17,16;
-	--wal-color-1-red: 118,45,33;
-	--wal-color-2-green: 123,56,39;
-	--wal-color-3-yellow: 153,63,36;
-	--wal-color-4-blue: 114,66,63;
-	--wal-color-5-purple: 163,79,64;
-	--wal-color-6-cyan: 172,141,64;
-	--wal-color-7-white: 152,142,142;
+	--wal-color-0-black: 8,7,6;
+	--wal-color-1-red: 42,52,70;
+	--wal-color-2-green: 68,60,78;
+	--wal-color-3-yellow: 103,69,78;
+	--wal-color-4-blue: 43,75,109;
+	--wal-color-5-purple: 72,75,112;
+	--wal-color-6-cyan: 106,80,114;
+	--wal-color-7-white: 148,148,136;
 
-	--wal-color-8-bright-black: 110,100,89;
-	--wal-color-9-bright-red: 158,60,45;
-	--wal-color-10-bright-green: 164,75,53;
-	--wal-color-11-bright-yellow: 205,84,49;
-	--wal-color-12-bright-blue: 152,88,84;
-	--wal-color-13-bright-purple: 218,106,86;
-	--wal-color-14-bright-cyan: 230,188,86;
-	--wal-color-15-bright-white: 196,195,195;
+	--wal-color-8-bright-black: 102,84,84;
+	--wal-color-9-bright-red: 56,70,94;
+	--wal-color-10-bright-green: 91,81,104;
+	--wal-color-11-bright-yellow: 138,92,105;
+	--wal-color-12-bright-blue: 58,100,146;
+	--wal-color-13-bright-purple: 96,100,150;
+	--wal-color-14-bright-cyan: 142,107,152;
+	--wal-color-15-bright-white: 193,193,192;
 
 	/*
 	https://css-tricks.com/css-variables-calc-rgb-enforcing-high-contrast-colors/
@@ -44,9 +44,9 @@
 	--background-light-luminance: 1.25;
 	--background-extra-light-luminance: 1.85;
 
-	--wal-bg-red: calc(0.075 * 255);
-	--wal-bg-green: calc(0.067 * 255);
-	--wal-bg-blue: calc(0.063 * 255);
+	--wal-bg-red: calc(0.031 * 255);
+	--wal-bg-green: calc(0.027 * 255);
+	--wal-bg-blue: calc(0.024 * 255);
 
 	--wal-red-light: min(max(0, calc(var(--wal-bg-red) + (var(--wal-bg-red) * var(--background-light-luminance)))), 255);
 	--wal-green-light: min(max(0, calc(var(--wal-bg-green) + (var(--wal-bg-green) * var(--background-light-luminance)))), 255);
