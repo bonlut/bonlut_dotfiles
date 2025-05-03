@@ -13,8 +13,8 @@
   --epicshadow1: #fff3;
   --modal-background: #212332;
   --font-display: var(--font-primary) !important;
-  --background-color: mix(#B6383C, #230F0F, 50%) !important;
-  --background-primary: mix(#201B1A, #230F0F, 50%) !important;
+  --background-color: mix(#AD3758, #0A1322, 50%) !important;
+  --background-primary: mix(#18191D, #0A1322, 50%) !important;
   --background-secondary: $bg !important;
   --background-secondary-alt: $bgDarker !important;
   --background-tertiary: $bgDarker !important;
@@ -33,7 +33,7 @@
 
 :root {
     /* background colors */
-    --bg-0: #201B1A; /* main background color. */
+    --bg-0: #18191D; /* main background color. */
     --bg-1: #1d2021; /* background color for secondary elements like code blocks, embeds, etc. */
     --bg-2: #3c3836; /* color of neutral buttons. */
     --bg-3: #504945; /* color of neutral buttons when hovered. */
@@ -44,15 +44,15 @@
     --txt-link: #171E9B; /* color of links. */
     --txt-0: #000000; /* color of bright/white text. */
     --txt-1: #BBBBBB; /* main text color. */
-    --txt-2: #AC6A6C; /* color of secondary text like channel list. */
-    --txt-3: #867E7E; /* color of muted text. */
+    --txt-2: #A8697B; /* color of secondary text like channel list. */
+    --txt-3: #62799E; /* color of muted text. */
     /* mention/ping and message colors */
-    --red: #655757;
-    --green: #867E7E;
-    --yellow: #AC6A6C;
-    --blue: #D24C4C;
-    --purple: #D1747B;
-    --aqua: #655757;
+    --red: #545A64;
+    --green: #62799E;
+    --yellow: #A8697B;
+    --blue: #A978AD;
+    --purple: #809EBF;
+    --aqua: #545A64;
 
     --font: "Rxen Sans"; /* UI font name. it must be installed on your system. */
     letter-spacing: -0.05ch; /* decreases letter spacing for better readability. */

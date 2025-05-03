@@ -20,16 +20,16 @@ cp $home_wallpaper ~/.cache/hyprlock/background
 wallust run $home_wallpaper
 
 
-"""
+
 # Update Discord theme
-cp ~/.cache/wal/discord-pywal.css ~/.config/vesktop/themes/discord-pywal.css
+#cp ~/.cache/wal/discord-pywal.css ~/.config/vesktop/themes/discord-pywal.css
 
 # Update Firefox theme
-pywalfox update
+#pywalfox update
 
 # Update Hyprland theme
-cp ~/.cache/wal/colors-hyprland ~/.config/hypr/colors.conf
-"""
+#cp ~/.cache/wal/colors-hyprland ~/.config/hypr/colors.conf
+
 
 # Refresh Hyprland
 hyprctl reload
