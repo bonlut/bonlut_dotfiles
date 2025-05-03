@@ -1,0 +1,149 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 40,
+  "margin-bottom": 0,
+  "margin-top": 12,
+  "margin-left": 12,
+  "margin-right": 12,
+
+  "modules-left": ["group/hardware", "hyprland/window"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["group/right"],
+
+  "hyprland/workspaces": {
+    "sort-by-name": true,
+    "on-click": "activate",
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+    },
+  },
+  "hyprland/window": {
+    "max-length": 200,
+    "separate-outputs": true,
+  },
+  "tray": {
+    "icon-size": 16,
+    "spacing": 6,
+  },
+  "clock": {
+    "locale": "C",
+    "format": "{:%I:%M %p}",
+    "format-alt": " {:%a,%b %d}", // Icon: calendar-alt
+    "tooltip": false,
+  },
+  "cpu": {
+    "format": "&#8239; {usage}%",
+    "tooltip": false,
+    "on-click": "alacritty -e 'btop'",
+  },
+  "memory": {
+    "interval": 30,
+    "format": " {used:0.2f}GB",
+    "max-length": 10,
+    "tooltip": false,
+    "warning": 70,
+    "critical": 90,
+  },
+  "network": {
+    "interval": 2,
+    "format-wifi": "  {signalStrength}%",
+    "format-ethernet": "",
+    "format-linked": " {ipaddr}",
+    "format-disconnected": " Disconnected",
+    "format-disabled": "",
+    "tooltip": true,
+    "max-length": 20,
+    "min-length": 6,
+    "tooltip-format": "{essid}",
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": "",
+    },
+  },
+  "backlight": {
+    // "device": "acpi_video1",
+    "format": "{icon}&#8239;{percent}%",
+    "format-icons": ["", ""],
+    "on-scroll-down": "brightnessctl -c backlight set 1%-",
+    "on-scroll-up": "brightnessctl -c backlight set +1%",
+  },
+  "pulseaudio": {
+    // "scroll-step": 1, // %, can be a float
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{icon} {volume}% {format_source}",
+    "format-bluetooth-muted": " {format_source}",
+    "format-muted": "  {format_source}",
+    "format-source": " {volume}%",
+    "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "🎧",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""],
+    },
+    "on-click": "pavucontrol",
+  },
+  "mpd": {
+    "format": "{stateIcon} {artist} - {title}",
+    "format-disconnected": "🎶",
+    "format-stopped": "♪",
+    "interval": 10,
+    "consume-icons": {
+      "on": " ", // Icon shows only when "consume" is on
+    },
+    "random-icons": {
+      "off": "<span color=\"#f53c3c\"></span> ", // Icon grayed out when "random" is off
+      "on": " ",
+    },
+    "repeat-icons": {
+      "on": " ",
+    },
+    "single-icons": {
+      "on": "1 ",
+    },
+    "state-icons": {
+      "paused": "",
+      "playing": "",
+    },
+    "tooltip-format": "MPD (connected)",
+    "tooltip-format-disconnected": "MPD (disconnected)",
+    "max-length": 35,
+  },
+  "custom/recorder": {
+    "format": " Rec",
+    "format-disabled": " Off-air", //An empty format will hide the module.
+    "return-type": "json",
+    "interval": 1,
+    "exec": "echo '{\"class\": \"recording\"}'",
+    "exec-if": "pgrep wf-recorder",
+  },
+  "custom/audiorec": {
+    "format": "♬ Rec",
+    "format-disabled": "♬ Off-air", //An empty format will hide the module.
+    "return-type": "json",
+    "interval": 1,
+    "exec": "echo '{\"class\": \"audio recording\"}'",
+    "exec-if": "pgrep ffmpeg",
+  },
+
+  "group/hardware": {
+    "orientation": "horizontal",
+    "modules": ["cpu", "memory", "network"],
+  },
+
+  "group/right": {
+    "orientation": "horizontal",
+    "modules": ["pulseaudio", "clock"],
+  },
+}
