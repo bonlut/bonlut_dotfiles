@@ -18,12 +18,12 @@ This is for saving and sharing my config with the help of gnu stow
 ### Installation :
 
 Clone the repo : 
-'''bash
+```bash
 git clone https://github.com/bonlut/bonlut_dotfiles.git
-'''
+```
 
 And stow it :
-'''bash
+```bash
 cd bonlut_dotfiles
 stow .
-'''
+```
