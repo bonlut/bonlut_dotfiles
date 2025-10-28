@@ -5,6 +5,7 @@ This is for saving and sharing my config with the help of gnu stow
 ### Config files : 
 
 - Alacritty (not updated)
+- Kitty
 - Hyprland
 - Qt themes
 - Rofi
