@@ -19,6 +19,17 @@ This is for saving and sharing my config with the help of gnu stow
 
 ### Installation :
 
+First install stow and git: 
+```bash
+sudo pacman -S --needed stow git
+```
+
+Then clone the repo and stow it : 
+```bash
+git clone https://github.com/bonlut/bonlut_dotfiles.git
+cd bonlut_dotfiles
+stow *
+```
 Install all the programs needed :
 
 ```bash
