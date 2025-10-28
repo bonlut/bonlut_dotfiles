@@ -1,6 +1,6 @@
-neofetch
+fastfetch
 
-path+=('/home/kbertrand/.local/bin')
+path+=('~/.local/bin')
 export PATH
 
 alias z="~/.local/bin/zed"

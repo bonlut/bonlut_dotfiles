@@ -14,9 +14,26 @@ This is for saving and sharing my config with the help of gnu stow
 - Wallust
 - Waybar
 - Waypaper
+- Oh-My-Zsh
 - Zsh
 
 ### Installation :
+
+Install all the programs needed :
+
+```bash
+yay -S --needed hyprland kitty wallust waybar rofi waypaper zsh thunar rose-pine-cursor qt5ct qt6ct swaync swayosd hyprpaper fastfetch zsh-autosuggestions zsh-syntax-highlighting atuin
+```
+
+Installing oh my zsh : 
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Optionnaly : 
+```bash
+yay -S --needed vesktop syncthing
+```
 
 Clone the repo : 
 ```bash

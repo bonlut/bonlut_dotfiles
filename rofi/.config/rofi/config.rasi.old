@@ -1,9 +1,0 @@
-/* Dark theme. */
-@import "~/.cache/wal/colors-rofi-dark"
-
-configuration {
-    display-drun: "Applications:";
-    drun-display-format: "{name}";
-    font: "JetBrainsMono Nerd Font Medium 15";
-    modi: "run,drun,emoji,calc";
-}
