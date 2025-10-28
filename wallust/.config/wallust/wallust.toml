@@ -1,4 +1,4 @@
-backend = "wal"
+backend = "full"
 
 palette = "dark16"
 
@@ -6,9 +6,13 @@ palette = "dark16"
 
 Hyprland = { template = 'hypr-colors.conf', target = '~/.config/hypr/hypr-colors.conf' }
 
-# alacritty = { template = 'colors-alacritty.toml', target = '~/.config/alacritty/alacritty-colors.toml' }
+alacritty = { template = 'colors-alacritty.toml', target = '~/.config/alacritty/alacritty-colors.toml' }
 
 vencord = { template = 'discord-wallust-tui.css', target = '~/.config/vesktop/themes/wallust.css' }
+
+kitty = { template = 'kitty.conf', target = '~/.config/kitty/kitty.conf' }
+
+rofi = { template = 'config.rasi', target = '~/.config/rofi/config.rasi'}
 
 # pywal = { template = 'colors.json', target = '~/.cache/wal/colors.json' }
 

@@ -1,0 +1,24 @@
+2025/10/27-13:24:11.072 80d Reusing MANIFEST /home/kbertrand/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/10/27-13:24:11.076 80d Recovering log #75
+2025/10/27-13:24:11.076 80d Reusing old log /home/kbertrand/.config/vesktop/sessionData/Local Storage/leveldb/000075.log 
+2025/10/27-13:25:11.078 78a Level-0 table #79: started
+2025/10/27-13:25:11.081 78a Level-0 table #79: 50782 bytes OK
+2025/10/27-13:25:11.085 78a Delete type=0 #75
+2025/10/27-13:46:18.863 78a Level-0 table #81: started
+2025/10/27-13:46:18.873 78a Level-0 table #81: 36040 bytes OK
+2025/10/27-13:46:18.875 78a Delete type=0 #78
+2025/10/27-13:47:07.774 78a Level-0 table #83: started
+2025/10/27-13:47:07.784 78a Level-0 table #83: 32651 bytes OK
+2025/10/27-13:47:07.790 78a Delete type=0 #80
+2025/10/27-13:47:07.791 78a Compacting 4@0 + 1@1 files
+2025/10/27-13:47:07.792 78a Generated table #84@0: 32 keys, 42785 bytes
+2025/10/27-13:47:07.792 78a Compacted 4@0 + 1@1 files => 42785 bytes
+2025/10/27-13:47:07.794 78a compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/27-13:47:07.795 78a Delete type=2 #74
+2025/10/27-13:47:07.795 78a Delete type=2 #76
+2025/10/27-13:47:07.795 78a Delete type=2 #79
+2025/10/27-13:47:07.795 78a Delete type=2 #81
+2025/10/27-13:47:07.795 78a Delete type=2 #83
+2025/10/27-13:48:01.044 78a Level-0 table #86: started
+2025/10/27-13:48:01.053 78a Level-0 table #86: 33012 bytes OK
+2025/10/27-13:48:01.067 78a Delete type=0 #82

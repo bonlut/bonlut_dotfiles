@@ -1,0 +1,102 @@
+2025/10/25-21:38:27.974 525 Reusing MANIFEST /home/kbertrand/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/10/25-21:38:27.978 525 Recovering log #33
+2025/10/25-21:38:27.978 525 Reusing old log /home/kbertrand/.config/vesktop/sessionData/Local Storage/leveldb/000033.log 
+2025/10/25-21:39:27.982 4a4 Level-0 table #37: started
+2025/10/25-21:39:27.984 4a4 Level-0 table #37: 36873 bytes OK
+2025/10/25-21:39:27.986 4a4 Delete type=0 #33
+2025/10/25-21:39:27.986 4a4 Compacting 4@0 + 1@1 files
+2025/10/25-21:39:27.988 4a4 Generated table #38@0: 32 keys, 43040 bytes
+2025/10/25-21:39:27.989 4a4 Compacted 4@0 + 1@1 files => 43040 bytes
+2025/10/25-21:39:27.993 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/25-21:39:27.993 4a4 Delete type=2 #26
+2025/10/25-21:39:27.993 4a4 Delete type=2 #28
+2025/10/25-21:39:27.993 4a4 Delete type=2 #30
+2025/10/25-21:39:27.993 4a4 Delete type=2 #34
+2025/10/25-21:39:27.993 4a4 Delete type=2 #37
+2025/10/25-21:42:28.204 4a4 Level-0 table #40: started
+2025/10/25-21:42:28.206 4a4 Level-0 table #40: 43515 bytes OK
+2025/10/25-21:42:28.209 4a4 Delete type=0 #36
+2025/10/25-21:50:28.204 4a4 Level-0 table #42: started
+2025/10/25-21:50:28.213 4a4 Level-0 table #42: 29659 bytes OK
+2025/10/25-21:50:28.216 4a4 Delete type=0 #39
+2025/10/25-21:58:28.204 4a4 Level-0 table #44: started
+2025/10/25-21:58:28.214 4a4 Level-0 table #44: 29810 bytes OK
+2025/10/25-21:58:28.222 4a4 Delete type=0 #41
+2025/10/25-22:06:28.203 4a4 Level-0 table #46: started
+2025/10/25-22:06:28.213 4a4 Level-0 table #46: 29589 bytes OK
+2025/10/25-22:06:28.230 4a4 Delete type=0 #43
+2025/10/25-22:06:28.230 4a4 Compacting 4@0 + 1@1 files
+2025/10/25-22:06:28.232 4a4 Generated table #47@0: 32 keys, 43143 bytes
+2025/10/25-22:06:28.232 4a4 Compacted 4@0 + 1@1 files => 43143 bytes
+2025/10/25-22:06:28.234 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/25-22:06:28.235 4a4 Delete type=2 #38
+2025/10/25-22:06:28.235 4a4 Delete type=2 #40
+2025/10/25-22:06:28.235 4a4 Delete type=2 #42
+2025/10/25-22:06:28.235 4a4 Delete type=2 #44
+2025/10/25-22:06:28.235 4a4 Delete type=2 #46
+2025/10/25-22:09:28.204 4a4 Level-0 table #49: started
+2025/10/25-22:09:28.214 4a4 Level-0 table #49: 38260 bytes OK
+2025/10/25-22:09:28.217 4a4 Delete type=0 #45
+2025/10/25-22:17:28.203 4a4 Level-0 table #51: started
+2025/10/25-22:17:28.220 4a4 Level-0 table #51: 30245 bytes OK
+2025/10/25-22:17:28.222 4a4 Delete type=0 #48
+2025/10/25-22:25:28.204 4a4 Level-0 table #53: started
+2025/10/25-22:25:28.213 4a4 Level-0 table #53: 30453 bytes OK
+2025/10/25-22:25:28.225 4a4 Delete type=0 #50
+2025/10/25-22:33:28.204 4a4 Level-0 table #55: started
+2025/10/25-22:33:28.215 4a4 Level-0 table #55: 29742 bytes OK
+2025/10/25-22:33:28.217 4a4 Delete type=0 #52
+2025/10/25-22:33:28.217 4a4 Compacting 4@0 + 1@1 files
+2025/10/25-22:33:28.219 4a4 Generated table #56@0: 32 keys, 42515 bytes
+2025/10/25-22:33:28.219 4a4 Compacted 4@0 + 1@1 files => 42515 bytes
+2025/10/25-22:33:28.222 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/25-22:33:28.222 4a4 Delete type=2 #47
+2025/10/25-22:33:28.222 4a4 Delete type=2 #49
+2025/10/25-22:33:28.222 4a4 Delete type=2 #51
+2025/10/25-22:33:28.222 4a4 Delete type=2 #53
+2025/10/25-22:33:28.222 4a4 Delete type=2 #55
+2025/10/25-22:41:28.203 4a4 Level-0 table #58: started
+2025/10/25-22:41:28.213 4a4 Level-0 table #58: 30210 bytes OK
+2025/10/25-22:41:28.215 4a4 Delete type=0 #54
+2025/10/25-22:49:28.203 4a4 Level-0 table #60: started
+2025/10/25-22:49:28.213 4a4 Level-0 table #60: 29889 bytes OK
+2025/10/25-22:49:28.215 4a4 Delete type=0 #57
+2025/10/25-23:04:28.203 4a4 Level-0 table #62: started
+2025/10/25-23:04:28.213 4a4 Level-0 table #62: 31087 bytes OK
+2025/10/25-23:04:28.215 4a4 Delete type=0 #59
+2025/10/25-23:11:28.204 4a4 Level-0 table #64: started
+2025/10/25-23:11:28.214 4a4 Level-0 table #64: 29759 bytes OK
+2025/10/25-23:11:28.216 4a4 Delete type=0 #61
+2025/10/25-23:11:28.216 4a4 Compacting 4@0 + 1@1 files
+2025/10/25-23:11:28.218 4a4 Generated table #65@0: 32 keys, 42535 bytes
+2025/10/25-23:11:28.218 4a4 Compacted 4@0 + 1@1 files => 42535 bytes
+2025/10/25-23:11:28.220 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/25-23:11:28.220 4a4 Delete type=2 #56
+2025/10/25-23:11:28.220 4a4 Delete type=2 #58
+2025/10/25-23:11:28.220 4a4 Delete type=2 #60
+2025/10/25-23:11:28.220 4a4 Delete type=2 #62
+2025/10/25-23:11:28.220 4a4 Delete type=2 #64
+2025/10/25-23:19:28.203 4a4 Level-0 table #67: started
+2025/10/25-23:19:28.218 4a4 Level-0 table #67: 29904 bytes OK
+2025/10/25-23:19:28.224 4a4 Delete type=0 #63
+2025/10/25-23:27:28.204 4a4 Level-0 table #69: started
+2025/10/25-23:27:28.217 4a4 Level-0 table #69: 30065 bytes OK
+2025/10/25-23:27:28.220 4a4 Delete type=0 #66
+2025/10/25-23:34:28.203 4a4 Level-0 table #71: started
+2025/10/25-23:34:28.205 4a4 Level-0 table #71: 28999 bytes OK
+2025/10/25-23:34:28.207 4a4 Delete type=0 #68
+2025/10/25-23:38:28.204 4a4 Level-0 table #73: started
+2025/10/25-23:38:28.214 4a4 Level-0 table #73: 39362 bytes OK
+2025/10/25-23:38:28.232 4a4 Delete type=0 #70
+2025/10/25-23:38:28.232 4a4 Compacting 4@0 + 1@1 files
+2025/10/25-23:38:28.237 4a4 Generated table #74@0: 32 keys, 42464 bytes
+2025/10/25-23:38:28.237 4a4 Compacted 4@0 + 1@1 files => 42464 bytes
+2025/10/25-23:38:28.240 4a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/25-23:38:28.240 4a4 Delete type=2 #65
+2025/10/25-23:38:28.240 4a4 Delete type=2 #67
+2025/10/25-23:38:28.240 4a4 Delete type=2 #69
+2025/10/25-23:38:28.240 4a4 Delete type=2 #71
+2025/10/25-23:38:28.240 4a4 Delete type=2 #73
+2025/10/25-23:46:28.204 4a4 Level-0 table #76: started
+2025/10/25-23:46:28.214 4a4 Level-0 table #76: 29593 bytes OK
+2025/10/25-23:46:28.220 4a4 Delete type=0 #72

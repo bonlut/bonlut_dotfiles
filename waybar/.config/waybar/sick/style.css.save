@@ -1,0 +1,75 @@
+@import "colors-waybar.css";
+
+* {
+    font-family: JetBrainsMono;
+    font-size: 16px;
+    min-height: 0;
+    color: @color15;
+}
+
+window#waybar {
+    border-radius: 4px;
+    background-color: alpha(@background, .8);
+    border: 2px solid alpha(@color6, .7);
+}
+
+#workspaces {
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+#workspaces button {
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 1px 10px;
+   
+}
+
+#workspaces button.active,
+
+#tray,
+#mpd,
+#custom-weather,
+#cpu,
+#temperature,
+#memory,
+#sway-mode,
+#backlight,
+#pulseaudio,
+#custom-vpn,
+#disk,
+#custom-recorder,
+#custom-audiorec,
+#battery,
+#clock {
+    padding: 0 10px;
+}
+#network {
+    padding: 0 10px;
+}
+
+#window {
+    margin-top: 3px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#hardware {
+    margin-top: 3px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#right {
+    margin-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}

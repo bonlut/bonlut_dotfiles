@@ -10,7 +10,7 @@
 @import url("acrylic/transparent-frame.css");
 
 :root {
-    --var-opacity-option: 0.82; /*   Acrylic opacity from 0 to 1    */
+    --var-opacity-option: 0.8; /*   Acrylic opacity from 0 to 1    */
     --var-color-saturation: 1; /* 0 to 999 where 1 is the default  */
     --var-contrast: 1.6; /*     Increase for darker blacks   */
 

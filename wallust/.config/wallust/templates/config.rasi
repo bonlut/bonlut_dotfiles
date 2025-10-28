@@ -1,0 +1,200 @@
+configuration {
+    show-icons:   false;
+    sidebar-mode: false;
+}
+
+* {
+    // Default bg is transparent.
+    background-color: transparent;
+    // Default text is var(text-color)
+    text-color:       {{color6}};
+    text-selected:    {{color15}};
+    background-color: rgba({{background | rgb}},0.8);
+    spacing:          0;
+}
+element {
+    padding: 10px ;
+    cursor:  pointer;
+    spacing: 10px ;
+    border:  0;
+    background-color: transparent;
+}
+element normal.normal {
+    background-color: transparent;
+    text-color:       var(text-color);
+}
+element normal.urgent {
+    background-color: transparent;
+    text-color:       var(text-color);
+}
+element normal.active {
+    background-color: transparent;
+    text-color:       var(text-color);
+}
+element selected.normal {
+    background-color: transparent;
+    text-color:       var(text-selected);
+}
+element selected.urgent {
+    background-color: transparent;
+    text-color:       var(selected-urgent-foreground);
+}
+element selected.active {
+    background-color: transparent;
+    text-color:       var(selected-active-foreground);
+}
+element alternate.normal {
+    background-color: transparent;
+    text-color:       var(text-color);
+}
+element alternate.urgent {
+    background-color: transparent;
+    text-color:       var(alternate-urgent-foreground);
+}
+element alternate.active {
+    background-color: transparent;
+    text-color:       var(alternate-active-foreground);
+}
+element-text {
+    background-color: transparent;
+    cursor:           inherit;
+    highlight:        inherit;
+    text-color:       inherit;
+}
+element-icon {
+    background-color: transparent;
+    size:             1.0000em ;
+    cursor:           inherit;
+    text-color:       inherit;
+}
+
+#hdum {
+    orientation: horizontal;
+    // Add dummy widgets on left and right so the sizing
+    // nicely centers mainbox, independent of resolution.
+    children: [ dummy3, mainbox, dummy4 ];
+    background-color: transparent;
+}
+
+window {
+    font: "JetBrainsMono Nerd Font 13";
+    fullscreen: true;
+    transparency: "background";
+
+    background-color: var(background-color);
+
+    // Add dummy widgets on top and bottom so the sizing
+    // nicely centers hdum, independent of resolution.
+    children: [ dummy1, hdum, dummy2 ];
+}
+
+mainbox {
+    padding: 0;
+    border:  0;
+    background-color: transparent;
+}
+dummy1 {
+    background-color: transparent;
+}
+dummy2 {
+    background-color: transparent;
+}
+dummy3 {
+    background-color: transparent;
+}
+dummy4 {
+    background-color: transparent;
+}
+message {
+    padding:      0px ;
+    border-color: transparent;
+    background-color: transparent;
+    border:       2px dash 0px 0px ;
+}
+textbox {
+    text-color: transparent;
+    background-color: transparent;
+}
+listview {
+    padding:      0px 0px 0px ;
+    scrollbar:    true;
+    border-color: transparent;
+    spacing:      2px ;
+    fixed-height: 0;
+    border:       2px dash 0px 0px ;
+    background-color: transparent;
+}
+scrollbar {
+    width:        4px ;
+    padding:      0;
+    handle-width: 8px ;
+    border:       0;
+    handle-color: transparent;
+    background-color: transparent;
+}
+
+button {
+    cursor:     pointer;
+    spacing:    0;
+    text-color: var(normal-foreground);
+    background-color: transparent;
+}
+button selected {
+    background-color: transparent;
+    text-color:       var(selected-normal-foreground);
+}
+num-filtered-rows {
+    expand:     false;
+    text-color: Gray;
+    background-color: transparent;
+}
+num-rows {
+    expand:     false;
+    text-color: Gray;
+    background-color: transparent;
+}
+textbox-num-sep {
+    expand:     false;
+    str:        "/";
+    text-color: Gray;
+    background-color: transparent;
+}
+inputbar {
+    padding:    1px ;
+    spacing:    0px ;
+    text-color: var(text-color);
+    children:   [ "entry"];
+    background-color: transparent;
+}
+overlay {
+    padding:          0px 0.2000em ;
+    background-color: transparent;
+    foreground-color: transparent;
+    margin:           0px 0.2000em ;
+    text-color:       var(text-color);
+}
+case-indicator {
+    spacing:    0;
+    text-color: var(text-color);
+    background-color: transparent;
+}
+entry {
+    text-color:        transparent;
+    cursor:            text;
+    spacing:           0;
+    placeholder-color: Gray;
+    placeholder:       "";
+    background-color: transparent;
+}
+prompt {
+    spacing:    0;
+    text-color: var(text-color);
+    background-color: transparent;
+}
+textbox-prompt-colon {
+    margin:     0px 0.3000em 0.0000em 0.0000em ;
+    expand:     false;
+    str:        "";
+    text-color: inherit;
+    background-color: transparent;
+}
