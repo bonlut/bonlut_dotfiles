@@ -27,3 +27,6 @@ And stow it :
 cd bonlut_dotfiles
 stow .
 ```
+### Images :
+
+<img width="3441" height="1440" alt="image" src="https://github.com/user-attachments/assets/c60c2a33-9366-4dab-bbae-1d3f72015393" />
