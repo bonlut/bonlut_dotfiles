@@ -36,7 +36,7 @@ Install all the programs needed :
 yay -S --needed hyprland kitty wallust waybar rofi waypaper zsh thunar rose-pine-cursor qt5ct qt6ct swaync swayosd hyprpaper fastfetch zsh-autosuggestions zsh-syntax-highlighting atuin
 ```
 
-Installing oh my zsh : 
+Installing oh my zsh (you do not need to configure anything if you want to use my settings) : 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -46,16 +46,6 @@ Optionnaly :
 yay -S --needed vesktop syncthing
 ```
 
-Clone the repo : 
-```bash
-git clone https://github.com/bonlut/bonlut_dotfiles.git
-```
-
-And stow it :
-```bash
-cd bonlut_dotfiles
-stow .
-```
 ### Images :
 
 <img width="3441" height="1440" alt="image" src="https://github.com/user-attachments/assets/c60c2a33-9366-4dab-bbae-1d3f72015393" />
