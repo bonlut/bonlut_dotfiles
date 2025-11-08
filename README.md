@@ -41,11 +41,6 @@ Installing oh my zsh (you do not need to configure anything if you want to use m
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-Optionnaly : 
-```bash
-yay -S --needed vesktop syncthing
-```
-
 ### Images :
 
 <img width="3441" height="1440" alt="image" src="https://github.com/user-attachments/assets/c60c2a33-9366-4dab-bbae-1d3f72015393" />
