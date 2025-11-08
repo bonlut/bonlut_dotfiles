@@ -7,9 +7,9 @@ configuration {
     // Default bg is transparent.
     background-color: transparent;
     // Default text is var(text-color)
-    text-color:       #BAADB8;
-    text-selected:    #F3EAF2;
-    background-color: rgba(49,39,35,0.8);
+    text-color:       #B7B6AC;
+    text-selected:    #F1F0EA;
+    background-color: rgba(17,16,25,0.8);
     spacing:          0;
 }
 element {
